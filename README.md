@@ -15,6 +15,7 @@ User or users or teams can:
 - tasks can be pulled from on stack (say open or in progress) => completed or in test
 - many more cool features
 
+## If you want to view the code, email me: fabrigeas@gmail.com and I will send you the gitlab link so you can clone the fronend and backends
 
 The app can be customised and delivered as a SaaS.<br>
 

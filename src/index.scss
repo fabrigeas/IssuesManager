@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.description {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+.logoContainer{
+  padding: 1rem;
+  color: #6c757d!important;
+}
+
+.logoContainer .preview {
+  height: 4rem;
+}
+
+.logoContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+fieldset {
+  margin: 0 !important;
+  padding: 1rem !important;
+  border-radius: .25rem!important;
+  border: 1px solid #dee2e6!important;
+}
+
+.content {
+  max-width: 700px !important;
+  margin: auto;
+}
+
+.content.centered {
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+
+
+.form-group{
+  @media (max-width: 768px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+  }
+}
+
+fieldset {
+  padding: 0 !important;
+  margin: 0 !important;
+  @media (max-width: 768px) {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+}

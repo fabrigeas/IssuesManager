@@ -1,0 +1,81 @@
+{
+  "name": "@fabrigeas/task-manager",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@fabrigeas/react-form-group": "^3.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/chai": "^4.2.11",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.47",
+    "@types/react": "^16.9.36",
+    "@types/react-color": "^3.0.2",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-sortable-hoc": "^0.7.1",
+    "bootstrap": "^4.5.0",
+    "chai": "^4.2.0",
+    "client-compress": "^2.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-sortable-hoc": "^1.11.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.9.5",
+    "uuid": "^8.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --verbose",
+    "eject": "react-scripts eject",
+    "deploy": "cd deployment && sh deploy.sh"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A taskmanager/ticket manager like kanban to manage tasks/tickets",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/fabrigeas1/tasks-frontend-react.tsx.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "taskmanager",
+    "redux",
+    "form-group"
+  ],
+  "author": "Fabrice Feugang Kemegni",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/fabrigeas1/tasks-frontend-react.tsx/issues"
+  },
+  "homepage": "/"
+}
